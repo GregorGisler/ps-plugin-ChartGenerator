@@ -1,0 +1,20 @@
+<appian-plugin name="Chart Generator" key="chartcreator2">
+
+  <plugin-info>
+    <description>Chart Generator</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.2.2</version>
+    <application-version min="22.3.0" />
+  </plugin-info>
+
+  <datatype key="DataSeries" name="Data Series Data Type">
+    <class>com.appiancorp.ps.type.DataSeries</class>
+  </datatype>
+
+  <datatype key="ChartThreshold" name="Chart Threshold Data Type">
+    <class>com.appiancorp.ps.type.ChartThreshold</class>
+  </datatype>
+
+  <smart-service name="Generate Chart" key="CreateChartv2" class="com.appiancorp.ps.ss.CreateXChartSmartService" />
+
+</appian-plugin>
